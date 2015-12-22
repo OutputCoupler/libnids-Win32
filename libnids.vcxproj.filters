@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{41ec8b28-919d-43d4-83dd-45d5d078c024}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{87602971-c4c8-4124-904f-919b5a10e2af}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pcapInclude">
+      <UniqueIdentifier>{78f5bebf-4546-4a88-a08f-9e1445c1b44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPL Stuff">
+      <UniqueIdentifier>{301e9a0a-17ae-436a-afe8-5ed39df5979d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NET">
+      <UniqueIdentifier>{c6f38bd9-d8e9-4f63-9b96-a0302772c46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETINET">
+      <UniqueIdentifier>{f843d638-3d30-45d3-95ab-4b8773de24ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="killtcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ip_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ip_fragment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allpromisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibnidsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_fragment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibnidsState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\bittypes.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\ip6_misc.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\Packet32.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\bluetooth.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\bpf.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\namedb.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\pcap.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\sll.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\usb.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap\vlan.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap-bpf.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap-namedb.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap-stdinc.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\pcap.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\remote-ext.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="pcapInclude\Win32-Extensions.h">
+      <Filter>Header Files\pcapInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="NET\Bpf.h">
+      <Filter>Header Files\NET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\IF_ETHER.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\In.h">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\IN_SYSTM.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\IP.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\IP_ICMP.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\IP_VAR.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\TCP.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\TCP_VAR.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\TCPIP.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\UDP.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+    <ClInclude Include="NETINET\UDP_VAR.H">
+      <Filter>Header Files\NETINET</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WDM Changelog" />
+    <None Include="CHANGES">
+      <Filter>GPL Stuff</Filter>
+    </None>
+    <None Include="COPYING">
+      <Filter>GPL Stuff</Filter>
+    </None>
+    <None Include="CREDITS">
+      <Filter>GPL Stuff</Filter>
+    </None>
+    <None Include="README">
+      <Filter>GPL Stuff</Filter>
+    </None>
+  </ItemGroup>
+</Project>
