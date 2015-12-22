@@ -81,7 +81,7 @@ under Visual Studio 2010 with no warnings at W4, plus countless formatting
 changes to look better in VS2010. Also, sorry, but I broke linux support 
 and ended up simply removing much of the Linux specific code.
 
- William McGloon <wdm.spare@gmail.com>
+ William McGloon <output.coupler@gmail.com>
 
 Libnids uses libpcap and libnet libraries:
     
