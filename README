@@ -43,8 +43,7 @@ Libnids is easy to use and highly configurable - see API file for details.
 3. On what platform does it run ?
 ---------------------------------
 
-Currently libnids will compile on Linux, Solaris, any *BSD. WIN32 port is
-available at http://www.datanerds.net/~mike/libnids.html
+Currently libnids will compile on Linux, Solaris, any *BSD and Win32.
 
 4. Who is allowed to use it ?
 -----------------------------
